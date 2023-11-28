@@ -1,15 +1,15 @@
 bdpars = {
-    "kBT": 4.1,                             # Energy room temperature [pN nm]
-    "dt": 0.01                             # Time step (s)
+    "kBT": 4.1,                               # Energy room temperature [pN nm]
+    "dt": 0.5E-9                              # Time step (s)
 }
 
 partpars = {
-    "eps": 4*bdpars['kBT'],                    # Repulsion energy particles [pN nm]
-    "sigma": 10,                               # Radius of the particle [nm]
-    "D": 20                                    # Efective diffusion coefficient [XXX]
+    "eps": 8.1,                    # Repulsion energy particles [pN nm]
+    "sigma": 5,                               # Radius of the particle [nm]
+    "D": 40E6                                  # Efective diffusion coefficient [nm^2/s]
 }
 
 tubepars = {
     "R_conf": 50,                              # Confinement radius of the tube [nm]
-    "k_conf": 2
+    "k_conf": 5                                # Confinement strangth [pN/nm]
 }
